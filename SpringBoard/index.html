@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Movie Details</title>
+    <title>Ticket Details</title>
     <style>
         div#maincontent {
-            height: 100px;
+            height: 150px;
             width: 500px;
             border: 1px solid #CEE2FA;
             text-align: left;
@@ -26,18 +26,21 @@
             font-size: 20;
             padding: 5px;
         }
+        h4 {
+            padding: 0;
+            margin: 0;
+        }
     </style>
 </head>
 <body>
     <center>
-        <div id = "heading">Movie Information</div>
-        <div id = "maincontent">
-        <script>
-                const movie = "Twilight";
-                let language = "English",ratings = 4.5;
-                document.write(`Movie : ${movie}
-                <br> Language : ${language}
-                <br> Ratings : ${ratings}`);
+        <div id="heading">
+            <b>Theatre Drama</b>
+        </div>
+        <div id="maincontent">
+            <h4>Your Ticket Details:</h4>
+            <br>
+            <script src="ticket.js">
             </script>
         </div>
     </center>
